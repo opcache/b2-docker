@@ -5,8 +5,14 @@
 > 1. 容器镜像采用基于docker容器alpine系统构建nginx+php+mariadb环境，网络采用docker host方式，日志可以获取到用户真实IP
 >    地址   https://github.com/opcache/danmp
 > 2. 可以支持lua waf拦截非法请求，可以自定义规则
-> 3. mysql默认密码为test123123
 
+## 默认参数
+- mysql默认密码为test123123
+- 默认WEB路径/data/wwwroot/www.xxxxxx.cn
+- 默认nginx配置路径/opt/nginx/conf.d
+- 默认nginx waf配置路径/opt/nginx/conf.d/waf
+- 默认nginx waf规则配置路径/opt/nginx/conf.d/waf/wafconf
+- 默认nginx waf拦截日志/data/nginx-log/waflogs/waf.log
 
 ## 安装
 ```
@@ -35,7 +41,7 @@ bash uninstall.sh
 
 -  <https://7b2.com/>
 
-## 友情技术支持站点和开源工具
+## 感谢开源工具
 
 - <https://github.com/loveshell/ngx_lua_waf>
 
