@@ -24,9 +24,9 @@ bash uninstall.sh
 
 
 # 友情技术支持站点和开源工具
-> https://aqzt.com/
-> https://selinux.cn/
-> https://7b2.com/
-> https://github.com/loveshell/ngx_lua_waf
-> https://github.com/taihedeveloper/ngx_lua_waf
+<https://aqzt.com/>
+<https://selinux.cn/>
+<https://7b2.com/>
+<https://github.com/loveshell/ngx_lua_waf>
+<https://github.com/taihedeveloper/ngx_lua_waf>
 
