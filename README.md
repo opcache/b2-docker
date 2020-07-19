@@ -47,6 +47,12 @@ cd b2-docker-master
 bash stop.sh
 ```
 
+## 使用waf配置
+```
+cd b2-docker-master
+bash nginx-waf.sh
+```
+
 ## 一起来参与，分享交流,问题反馈
 - 分享交流,问题反馈，请加 QQ 群： 7652650 （安全运维）
 - https://aqzt.com/bubble/6644.html
