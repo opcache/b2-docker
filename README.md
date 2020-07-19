@@ -29,6 +29,24 @@ cd b2-docker-master
 bash uninstall.sh
 ```
 
+## 重新加载nginx配置
+```
+cd b2-docker-master
+bash reload.sh
+```
+
+## 启动容器
+```
+cd b2-docker-master
+bash start.sh
+```
+
+## 停止容器
+```
+cd b2-docker-master
+bash stop.sh
+```
+
 ## 一起来参与，分享交流,问题反馈
 - 分享交流,问题反馈，请加 QQ 群： 7652650 （安全运维）
 - https://aqzt.com/bubble/6644.html
